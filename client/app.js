@@ -5,9 +5,9 @@ const baseUrl = 'http://127.0.0.1:8000/';
 const accountUrl = baseUrl + 'account/';
 const studentUrl = baseUrl + 'api/student/';
 
-// const authentication = 'Basic YmFycnk6MQ==';
-// let authentication = 'Token 29fbf0ee61703cb811fc1ceeab48c0f76e8b4b36';
-let authentication;
+// const authentication = 'Basic aXNyYWZpbDpBa3NhcmF5Njg=';
+let authentication = 'Token 2d9a5c7b75262bb81b63c1140dc05b890c01d9f1';
+// let authentication;
 
 const displayStudents = async () => {
   try {
